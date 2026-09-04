@@ -42,7 +42,7 @@ if start:
         print(letra, end="", flush=True)
         time.sleep(0.1)
     
-ascii_art = [
+ascii_artbr = [
     "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -94,7 +94,7 @@ ascii_art = [
     "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
 ]
 
-for linha in ascii_art:
+for linha in ascii_artbr:
     print(linha)
     time.sleep(0.1)
 
@@ -621,9 +621,7 @@ print("   ")
 print("   ")
 print("   ")
 
-import time
-
-ascii_art = [
+ascii_art1 = [
     "██████╗ ██████╗ ██████╗ ██╗ ██████╗  █████╗ ██████╗  ██████╗ ██╗",
     "██╔═══██╗██╔══██╗██╔══██╗██║██╔════╝ ██╔══██╗██╔══██╗██╔═══██╗██║",
     "██║   ██║██████╔╝██████╔╝██║██║  ███╗███████║██║  ██║██║   ██║██║",
@@ -632,13 +630,11 @@ ascii_art = [
     " ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝",
 ]
 
-for linha in ascii_art:
+for linha in ascii_art1:
     print(linha)
     time.sleep(0.1)
 
-import time
-
-ascii_art = [
+ascii_art2 = [
     ";;;;;;;;;;;;;;;;+;                                                                       ",
     "                                                                   ;;x$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&$+;                                                              ",
     "                                                              ;X&&&&&&$                              &&&&&&&X;                                                        ",
@@ -722,7 +718,7 @@ ascii_art = [
     "                                                                        &xx$&&&&&&&&&&&&&&&&&&&&X+&&",
 ]
 
-for linha in ascii_art:
+for linha in ascii_art2:
     print(linha)
     time.sleep(0.1)
 
